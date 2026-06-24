@@ -9,7 +9,7 @@ This is the beginning. This space is where I put into writing ideas that have be
 
 ## Why a blog?
 
-There is something particular about the act of writing. Not just to communicate, but to *clarify*. When you write, you discover what you actually think — vague ideas take shape, contradictions surface, gaps in reasoning become visible.
+There is something particular about the act of writing. Not just to communicate, but to *clarify*. When you write, you discover what you actually think: vague ideas take shape, contradictions surface, gaps in reasoning become visible.
 
 This blog isn't here to impress anyone. It's a thinking tool, public by choice.
 
@@ -17,9 +17,9 @@ This blog isn't here to impress anyone. It's a thinking tool, public by choice.
 
 A few topics I'm interested in right now:
 
-- **Web development** — tools, patterns, what actually works in production
-- **Software architecture** — how big decisions shape the long-term evolution of a project
-- **Hugo and static site generators** — this blog runs on Hugo, and I find the approach genuinely compelling
+- **Web development**: tools, patterns, what actually works in production
+- **Software architecture**: how big decisions shape the long-term evolution of a project
+- **Hugo and static site generators**: this blog runs on Hugo, and I find the approach genuinely compelling
 
 ## A note on format
 

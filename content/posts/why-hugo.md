@@ -9,11 +9,11 @@ Hugo is often described as the world's fastest static site generator. That's a m
 
 ## The static site landscape
 
-The ecosystem has fragmented. Jekyll, Hugo, Gatsby, Eleventy, Astro, Next.js in export mode — each with its own philosophy.
+The ecosystem has fragmented. Jekyll, Hugo, Gatsby, Eleventy, Astro, Next.js in export mode, each with its own philosophy.
 
 My conclusion after trying several of them: **complexity is the enemy of content**. If the generator demands more attention than the articles, something is wrong.
 
-Hugo has a steep initial learning curve — Go templates are disorienting at first — but once you understand the core concepts (layouts, front matter, taxonomies), everything fits together coherently.
+Hugo has a steep initial learning curve. Go templates are disorienting at first, but once you understand the core concepts (layouts, front matter, taxonomies), everything fits together coherently.
 
 ## What I like about it
 
