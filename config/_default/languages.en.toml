@@ -8,6 +8,7 @@ title = "Matheo's blog"
 [params]
   dateFormat = "2 January 2006"
   description = "A blog about building things with code and computers"
+  mainSections = ["posts"]
 
 [params.author]
   name = "Matheo"

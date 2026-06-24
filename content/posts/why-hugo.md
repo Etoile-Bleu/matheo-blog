@@ -33,4 +33,4 @@ For a personal blog in 2026, it's still the right call.
 
 ---
 
-*This blog runs on Hugo 0.163. Source is on [GitHub](https://github.com/Etoile-Bleu/mon-blog).*
+*This blog runs on Hugo 0.163. Source is on [GitHub](https://github.com/Etoile-Bleu/matheo-blog).*

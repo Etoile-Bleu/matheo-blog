@@ -1,5 +1,7 @@
 ---
 title: "About"
+showDate: false
+showReadingTime: false
 ---
 
 # About
@@ -31,7 +33,7 @@ I've written about this project and my journey on Dev.to:
 
 This is my personal blog where I share thoughts on software engineering, devops, and side projects.
 
-It is built with Hugo, using the Congo theme.
+It is built with Hugo and the [Congo](https://jpanther.github.io/congo/) theme.
 
 ## Contact
 
