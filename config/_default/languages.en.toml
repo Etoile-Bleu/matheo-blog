@@ -1,0 +1,20 @@
+locale = "en"
+label = "English"
+direction = "ltr"
+weight = 1
+
+title = "Matheo's blog"
+
+[params]
+  dateFormat = "2 January 2006"
+  description = "A blog about building things with code and computers"
+
+[params.author]
+  name = "Matheo"
+  image = "img/profile.jpg"
+  headline = "Thanks for stopping by."
+  bio = "👋 I'm a developer and I like to build things and tinker with computers."
+  links = [
+    { github = "https://github.com/Etoile-Bleu" },
+    { linkedin = "https://www.linkedin.com/in/math%C3%A9o-delbarre/" }
+  ]
