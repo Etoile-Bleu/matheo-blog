@@ -1,11 +1,23 @@
-/* Fix profile image: force square dimensions so rounded-full produces a perfect circle.
-   Congo renders: <picture class="mb-2 h-auto w-36 rounded-full">
-                    <img class="mb-2 h-auto w-36 rounded-full" ...>
-   The image is 464x650 (portrait), so h-auto makes it taller than wide -> oval not circle. */
-picture.rounded-full,
-picture.rounded-full img {
-  width: 9rem !important;   /* w-36 */
-  height: 9rem !important;  /* force equal height */
+/* -------------------------------------------------------
+   Fix profile images: force square so rounded-full = circle.
+   The photo is 464x650 (portrait), h-auto makes it oval.
+   -------------------------------------------------------- */
+
+/* Homepage profile (w-36 = 9rem) */
+picture.rounded-full.w-36,
+picture.rounded-full.w-36 img {
+  width: 9rem !important;
+  height: 9rem !important;
+  object-fit: cover !important;
+  overflow: hidden !important;
+  border-radius: 9999px !important;
+}
+
+/* Author card at bottom of pages (w-24 = 6rem) */
+picture.rounded-full.w-24,
+picture.rounded-full.w-24 img {
+  width: 6rem !important;
+  height: 6rem !important;
   object-fit: cover !important;
   overflow: hidden !important;
   border-radius: 9999px !important;
