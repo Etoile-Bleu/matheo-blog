@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="container">
+  <div class="home-bio">
+    <h1>{{ .Site.Title }}</h1>
+    <p>{{ .Site.Params.bio }}</p>
+  </div>
+
+  <div class="recent-posts">
+    <h2>Recent posts</h2>
+    <ul class="post-list">
+      {{ range first 10 (where .Site.RegularPages "Section" "posts") }}
+      <li class="post-item">
+        <span class="post-date">{{ .Date.Format "Jan 02, 2006" }}</span>
+        <a href="{{ .Permalink }}" class="post-title-link">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>
+{{ end }}
