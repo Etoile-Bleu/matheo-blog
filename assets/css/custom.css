@@ -1,24 +1,33 @@
 /* -------------------------------------------------------
-   Fix profile images: force square so rounded-full = circle.
-   The photo is 464x650 (portrait), h-auto makes it oval.
+   Fix profile images: portrait photo (464x650) + h-auto = oval.
+   Force square so rounded-full = perfect circle.
    -------------------------------------------------------- */
 
-/* Homepage profile (w-36 = 9rem) */
-picture.rounded-full.w-36,
-picture.rounded-full.w-36 img {
-  width: 9rem !important;
-  height: 9rem !important;
-  object-fit: cover !important;
+/* Make picture a block container that clips its child img */
+picture.rounded-full {
+  display: block !important;
   overflow: hidden !important;
+  flex-shrink: 0 !important;
   border-radius: 9999px !important;
 }
 
-/* Author card at bottom of pages (w-24 = 6rem) */
-picture.rounded-full.w-24,
-picture.rounded-full.w-24 img {
+/* Homepage profile: w-36 = 9rem */
+picture.rounded-full.w-36 {
+  width: 9rem !important;
+  height: 9rem !important;
+}
+
+/* Author card: w-24 = 6rem */
+picture.rounded-full.w-24 {
   width: 6rem !important;
   height: 6rem !important;
+}
+
+/* The img inside fills the picture container completely */
+picture.rounded-full img {
+  width: 100% !important;
+  height: 100% !important;
   object-fit: cover !important;
-  overflow: hidden !important;
-  border-radius: 9999px !important;
+  object-position: center top !important;
+  border-radius: 0 !important; /* picture handles clipping */
 }
