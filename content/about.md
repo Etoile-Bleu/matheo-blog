@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-Hi, I'm Etoile-Bleu.
+Hi, I'm Matheo.
 
 I'm a developer with a passion for building clean, efficient software. This blog is where I share thoughts on technology, web development, and the ideas that fascinate me.
 

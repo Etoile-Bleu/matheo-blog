@@ -9,14 +9,11 @@ enableRobotsTXT = true
   description = "A personal blog about tech, code, and ideas."
   tagline = "Thanks for stopping by."
   since = 2024
-  # avatar = "/images/avatar.jpg"  # uncomment and add your photo to static/images/
+  avatar = "/img/profile.jpg"
 
   [params.social]
     github = "https://github.com/Etoile-Bleu"
-    # twitter = "https://twitter.com/yourhandle"
-    # mastodon = "https://mastodon.social/@yourhandle"
-    # bluesky = "https://bsky.app/profile/yourhandle"
-    # linkedin = "https://linkedin.com/in/yourhandle"
+    linkedin = "https://www.linkedin.com/in/math%C3%A9o-delbarre/"
 
 [markup]
   [markup.highlight]

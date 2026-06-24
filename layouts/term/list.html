@@ -1,19 +1,14 @@
 {{ define "main" }}
-<header>
-  <h1 class="mt-0 text-4xl font-extrabold text-stone-900 dark:text-stone-100">#{{ .Title }}</h1>
-</header>
-
-{{ $pages := .Pages.ByDate.Reverse }}
-<div class="mt-8 max-w-prose">
-  {{ range $pages }}
-  <article class="mt-6">
-    <h3 class="text-xl font-semibold">
-      <a class="text-stone-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-stone-100" href="{{ .Permalink }}">{{ .Title }}</a>
-    </h3>
-    <div class="mt-1 text-sm text-stone-500 dark:text-stone-400">
-      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
-    </div>
-  </article>
-  {{ end }}
+<div class="container">
+  <h1 class="section-title">#{{ .Title }}</h1>
+  
+  <ul class="post-list">
+    {{ range .Pages.ByDate.Reverse }}
+    <li class="post-item">
+      <time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 02, 2006" }}</time>
+      <a href="{{ .Permalink }}" class="post-link">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
 </div>
 {{ end }}

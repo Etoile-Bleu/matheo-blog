@@ -1,9 +1,6 @@
-<footer class="py-10 text-sm text-stone-400 dark:text-stone-500 print:hidden">
-  <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
-    <span>Since {{ .Site.Params.since }}</span>
-    <span aria-hidden="true">&middot;</span>
-    <a href="{{ "feed.xml" | absURL }}" class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors">RSS</a>
-    <span aria-hidden="true">&middot;</span>
-    <span>Content under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="hover:text-primary-600 dark:hover:text-primary-400 transition-colors" rel="noopener noreferrer">CC BY-NC-SA 4.0</a></span>
+<footer>
+  <div class="container">
+    <p>&copy; {{ now.Year }} {{ .Site.Params.author }}</p>
+    <p><a href="{{ "feed.xml" | absURL }}">RSS Feed</a></p>
   </div>
 </footer>

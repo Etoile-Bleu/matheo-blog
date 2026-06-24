@@ -1,51 +1,31 @@
 {{ define "main" }}
-<header>
-  <h1 class="mt-0 text-4xl font-extrabold text-stone-900 dark:text-stone-100">{{ .Title }}</h1>
-</header>
+<div class="container">
+  <h1 class="section-title">{{ .Title }}</h1>
 
-{{ $pages := .Pages.ByDate.Reverse }}
-
-{{/* Collect unique years */}}
-{{ $years := slice }}
-{{ range $pages }}
-  {{ $year := .Date.Format "2006" }}
-  {{ if not (in $years $year) }}
-    {{ $years = $years | append $year }}
-  {{ end }}
-{{ end }}
-
-<div class="mt-2 flex max-w-full flex-col lg:flex-row lg:gap-16">
-  <div class="min-w-0 max-w-prose grow">
-    {{ range $years }}
-      {{ $year := . }}
-      <h2 id="{{ $year }}" class="mt-12 text-2xl font-bold text-stone-700 first:mt-8 dark:text-stone-300">{{ $year }}</h2>
-      <hr class="mt-1 w-36 border-dotted border-stone-400 dark:border-stone-600">
-      {{ range $pages }}
-        {{ if eq (.Date.Format "2006") $year }}
-        <article class="mt-6 max-w-prose">
-          <h3 class="text-xl font-semibold">
-            <a class="text-stone-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-stone-100" href="{{ .Permalink }}">{{ .Title }}</a>
-          </h3>
-          <div class="mt-1 text-sm text-stone-500 dark:text-stone-400">
-            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
-          </div>
-        </article>
-        {{ end }}
-      {{ end }}
+  {{ $pages := .Pages.ByDate.Reverse }}
+  {{ $years := slice }}
+  {{ range $pages }}
+    {{ $year := .Date.Format "2006" }}
+    {{ if not (in $years $year) }}
+      {{ $years = $years | append $year }}
     {{ end }}
-  </div>
+  {{ end }}
 
-  <aside class="mt-12 hidden shrink-0 lg:block lg:w-32">
-    <div class="sticky top-8">
-      <p class="text-xs font-semibold uppercase tracking-wider text-stone-400 dark:text-stone-500">Years</p>
-      <ul class="mt-2 space-y-1.5">
-        {{ range $years }}
-        <li>
-          <a href="#{{ . }}" class="text-sm text-stone-500 hover:text-primary-600 dark:text-stone-400 dark:hover:text-primary-400 transition-colors">{{ . }}</a>
-        </li>
+  {{ range $years }}
+    {{ $year := . }}
+    <div class="year-section">
+      <h2 class="year-title">{{ $year }}</h2>
+      <ul class="post-list">
+        {{ range $pages }}
+          {{ if eq (.Date.Format "2006") $year }}
+          <li class="post-item">
+            <time class="post-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 02" }}</time>
+            <a href="{{ .Permalink }}" class="post-link">{{ .Title }}</a>
+          </li>
+          {{ end }}
         {{ end }}
       </ul>
     </div>
-  </aside>
+  {{ end }}
 </div>
 {{ end }}
