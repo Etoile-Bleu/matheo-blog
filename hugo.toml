@@ -1,4 +1,4 @@
-baseURL = "https://etoile-bleu.github.io/mon-blog/"
+baseURL = "https://etoile-bleu.github.io/matheo-blog/"
 locale = "en-US"
 title = "Etoile-Bleu"
 paginate = 10
