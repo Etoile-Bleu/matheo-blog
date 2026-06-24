@@ -4,13 +4,6 @@ showDate: false
 showReadingTime: false
 ---
 
-# About
-
-- [Me](#me)
-- [ZamSync](#zamsync)
-- [The blog](#the-blog)
-- [Contact](#contact)
-
 ## Me
 
 Hi there! I'm Mathéo, a software engineer based in France.
