@@ -1,15 +1,14 @@
 {{ define "main" }}
-<div class="container">
-  <h1 class="section-title">Tags</h1>
-  <ul class="tags-list">
-    {{ range .Data.Terms.Alphabetical }}
-    <li>
-      <a href="{{ .Page.Permalink }}">
-        {{ .Page.Title }}
-        <span class="tag-count">({{ .Count }})</span>
-      </a>
-    </li>
-    {{ end }}
-  </ul>
+<header>
+  <h1 class="mt-0 text-4xl font-extrabold text-stone-900 dark:text-stone-100">Tags</h1>
+</header>
+
+<div class="mt-8 flex flex-wrap gap-3">
+  {{ range .Data.Terms.Alphabetical }}
+  <a href="{{ .Page.Permalink }}" class="flex items-center gap-1.5 rounded-full bg-stone-100 px-4 py-1.5 text-sm font-medium text-stone-700 hover:bg-primary-100 hover:text-primary-700 dark:bg-stone-800 dark:text-stone-300 dark:hover:bg-stone-700 dark:hover:text-primary-400 transition-colors">
+    {{ .Page.Title }}
+    <span class="text-xs text-stone-400 dark:text-stone-500">({{ .Count }})</span>
+  </a>
+  {{ end }}
 </div>
 {{ end }}

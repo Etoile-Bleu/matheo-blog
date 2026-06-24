@@ -1,13 +1,38 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Locale }}">
 <head>
+  <script>
+    (function(){
+      var s = localStorage.getItem('appearance');
+      var d = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (s === 'dark' || (!s && d)) document.documentElement.classList.add('dark');
+    })();
+  </script>
   {{ partial "head.html" . }}
 </head>
-<body>
-  {{ partial "header.html" . }}
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
-  {{ partial "footer.html" . }}
+<body class="bg-stone-50 text-stone-900 dark:bg-stone-950 dark:text-stone-100">
+  <a class="sr-only focus:not-sr-only focus:fixed focus:top-0 focus:left-0 focus:z-50 focus:rounded-b-lg focus:bg-primary-100 focus:px-3 focus:py-1 focus:text-sm dark:focus:bg-stone-700" href="#main-content">
+    Skip to main content
+  </a>
+  <div class="mx-auto flex min-h-screen max-w-7xl flex-col px-6 sm:px-14 md:px-24 lg:px-32">
+    {{ partial "header.html" . }}
+    <main id="main-content" class="grow py-6">
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ partial "footer.html" . }}
+  </div>
+  <script>
+    document.querySelectorAll('[data-toggle="dark"]').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var dark = document.documentElement.classList.toggle('dark');
+        localStorage.setItem('appearance', dark ? 'dark' : 'light');
+      });
+    });
+    var mBtn = document.getElementById('mobile-menu-btn');
+    var mMenu = document.getElementById('mobile-menu');
+    if (mBtn && mMenu) {
+      mBtn.addEventListener('click', function() { mMenu.classList.toggle('hidden'); });
+    }
+  </script>
 </body>
 </html>

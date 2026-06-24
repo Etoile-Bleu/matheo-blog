@@ -1,13 +1,22 @@
 baseURL = "https://etoile-bleu.github.io/matheo-blog/"
 locale = "en-US"
-title = "Etoile-Bleu"
-paginate = 10
+title = "Matheo"
+paginate = 20
 enableRobotsTXT = true
 
 [params]
-  author = "Etoile-Bleu"
+  author = "Matheo"
   description = "A personal blog about tech, code, and ideas."
-  bio = "Developer. I write about tech, code, and the ideas that fascinate me."
+  tagline = "Thanks for stopping by."
+  since = 2024
+  # avatar = "/images/avatar.jpg"  # uncomment and add your photo to static/images/
+
+  [params.social]
+    github = "https://github.com/Etoile-Bleu"
+    # twitter = "https://twitter.com/yourhandle"
+    # mastodon = "https://mastodon.social/@yourhandle"
+    # bluesky = "https://bsky.app/profile/yourhandle"
+    # linkedin = "https://linkedin.com/in/yourhandle"
 
 [markup]
   [markup.highlight]
