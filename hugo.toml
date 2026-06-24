@@ -1,0 +1,37 @@
+baseURL = "https://etoile-bleu.github.io/mon-blog/"
+locale = "en-US"
+title = "Etoile-Bleu"
+paginate = 10
+enableRobotsTXT = true
+
+[params]
+  author = "Etoile-Bleu"
+  description = "A personal blog about tech, code, and ideas."
+  bio = "Developer. I write about tech, code, and the ideas that fascinate me."
+
+[markup]
+  [markup.highlight]
+    style = "github"
+    lineNos = false
+    codeFences = true
+    noClasses = true
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+
+[outputFormats]
+  [outputFormats.RSS]
+    mediaType = "application/rss+xml"
+    baseName = "feed"
+    isPlainText = false
+    rel = "alternate"
+    isHTML = false
+
+[taxonomies]
+  tag = "tags"
