@@ -6,13 +6,15 @@ showReadingTime: false
 
 ## Me
 
-Hi there! I'm Mathéo, a software engineer based in France.
+Hi there! I'm Mathéo, 19, a third-year computer science student at Epitech Nancy, France.
 
-I'm a third-year student at Epitech and seeking a part-time position starting from September 13th until March 2026. If you are looking for a developer who is passionate about building practical software that solves real-world problems, feel free to reach out at [matheo.delbarre@epitech.eu](mailto:matheo.delbarre@epitech.eu).
+I build software for places the industry usually skips: clinics with no reliable power, medical workers with no internet, situations where "just use the cloud" isn't an option. It didn't start as a plan. I read about a hospital in Bhutan whose new patient records system fell over on launch day because the network couldn't take the load, and I couldn't stop thinking about it. So I built [ZamSync](https://github.com/Etoile-Bleu/ZamSync). Then I kept noticing the same kind of gap elsewhere and built [MenSung](https://github.com/Etoile-Bleu/MenSung). I'm not a great marketer and I don't pretend to be one, I just try to build the thing and be honest about why.
+
+I'm looking for a part-time position starting from September 13th until March 2026. If you're building something that matters and want a developer who cares about the whole stack, not just the parts that are fun, I'd like to hear from you at [matheo.delbarre@epitech.eu](mailto:matheo.delbarre@epitech.eu).
 
 **[Download my resume (PDF)](https://etoile-bleu.github.io/matheo-blog/resume-matheo-delbarre.pdf)**
 
-I'm passionate about computers, technology, and building things. When I'm not writing code, I enjoy playing [chess](https://www.chess.com/member/etoile_bleu).
+Outside of code, I play [chess](https://www.chess.com/member/etoile_bleu), slowly, not particularly well, and I can't seem to stop.
 
 ## What I'm building
 
