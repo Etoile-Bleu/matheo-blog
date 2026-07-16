@@ -17,3 +17,10 @@
   name = "Now"
   pageRef = "now"
   weight = 40
+
+[[main]]
+  name = "Resume"
+  url = "/matheo-blog/RESUME_MATHEO_DELBARRE.pdf"
+  weight = 50
+  [main.params]
+    target = "_blank"

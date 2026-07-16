@@ -4,7 +4,7 @@ showDate: false
 showReadingTime: false
 ---
 
-*Last updated: June 2026, from Nancy, France.*
+*Last updated: July 2026, from Nancy, France.*
 
 ---
 
@@ -14,7 +14,7 @@ showReadingTime: false
 
 ## What I'm studying
 
-Second year at [Epitech](https://www.epitech.eu/) Nancy. The school is project-based and largely self-directed, which I find both exhausting and exactly right for how I learn.
+Third year at [Epitech](https://www.epitech.eu/) Nancy. The school is project-based and largely self-directed, which I find both exhausting and exactly right for how I learn.
 
 Starting September 13th, I'm looking for a **part-time position**. If you're building something that matters and need a developer who cares about the whole stack, reach out.
 
