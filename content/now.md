@@ -18,7 +18,7 @@ showReadingTime: false
 
 Third year at [Epitech](https://www.epitech.eu/) Nancy. The school is project-based and largely self-directed, which I find both exhausting and exactly right for how I learn.
 
-Starting September 13th, I'm looking for a **part-time position**. If you're building something that matters and need a developer who cares about the whole stack, reach out.
+From September 13th 2026 through March 1st 2027, two days a week (Thursdays and Fridays), I'm looking for a **part-time position**. If you're building something that matters and need a developer who cares about the whole stack, reach out.
 
 ## What I'm reading
 

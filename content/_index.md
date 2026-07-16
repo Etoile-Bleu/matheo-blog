@@ -2,8 +2,8 @@
 title: "Home"
 ---
 
-I'm a developer and I like to build things and tinker with computers.
+**I'm looking for a part-time developer role: two days a week, Thursdays and Fridays, September 13th 2026 through March 1st 2027.** It's built into third year at Epitech on purpose, so it's a real structured commitment, not a maybe.
 
-I'm currently seeking a part-time position starting from September 13th until March 2026. You can reach me at [matheo.delbarre@epitech.eu](mailto:matheo.delbarre@epitech.eu).
+I'm Mathéo. I build practical software that solves real problems, usually the systems and backend parts other people skip. If that's what you need two days a week, reach out at [matheo.delbarre@epitech.eu](mailto:matheo.delbarre@epitech.eu).
 
 Aside from software development, I enjoy playing [chess](https://www.chess.com/member/etoile_bleu).
