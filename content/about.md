@@ -22,6 +22,10 @@ Five months at AT7 Système (Aug to Dec 2025), porting a 25-year-old internal Wi
 
 Read the write-up: [Their API was throttled on purpose, and I had to route around it](https://etoile-bleu.github.io/matheo-blog/posts/at7-systeme-internship/)
 
+## Security
+
+Top 5 out of 90 in Epitech's binary exploitation CTF: stack and heap overflows, GOT overwrites, ROP-style chains, reverse engineering against custom challenges. Top 7 out of 149 across campuses on OWASP Juice Shop, 119 challenges solved: XSS, SQLi, broken access control, crypto, business logic flaws.
+
 ## What I'm building
 
 Offline-first software for places where the internet, the hardware, or both, cannot be assumed: **[ZamSync](https://github.com/Etoile-Bleu/ZamSync)**, a sync engine for clinics in Bhutan that run on 2G and lose power mid-transfer, and **[MenSung](https://github.com/Etoile-Bleu/MenSung)**, an offline medication interaction checker for medical workers in war zones, refugee camps, and rural clinics.
