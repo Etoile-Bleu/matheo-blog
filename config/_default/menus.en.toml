@@ -20,7 +20,7 @@
 
 [[main]]
   name = "Resume"
-  url = "/matheo-blog/RESUME_MATHEO_DELBARRE.pdf"
+  url = "https://etoile-bleu.github.io/matheo-blog/resume-matheo-delbarre.pdf"
   weight = 50
   [main.params]
     target = "_blank"

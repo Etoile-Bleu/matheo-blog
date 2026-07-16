@@ -10,7 +10,7 @@ Hi there! I'm Mathéo, a software engineer based in France.
 
 I'm a third-year student at Epitech and seeking a part-time position starting from September 13th until March 2026. If you are looking for a developer who is passionate about building practical software that solves real-world problems, feel free to reach out at [matheo.delbarre@epitech.eu](mailto:matheo.delbarre@epitech.eu).
 
-**[Download my resume (PDF)](/matheo-blog/RESUME_MATHEO_DELBARRE.pdf)**
+**[Download my resume (PDF)](https://etoile-bleu.github.io/matheo-blog/resume-matheo-delbarre.pdf)**
 
 I'm passionate about computers, technology, and building things. When I'm not writing code, I enjoy playing [chess](https://www.chess.com/member/etoile_bleu).
 
