@@ -10,7 +10,9 @@ showReadingTime: false
 
 ## What I'm building
 
-**[ZamSync](https://github.com/Etoile-Bleu/ZamSync)**, a sync engine written in Rust for district health clinics in Bhutan that run on 2G and lose power mid-transfer. I just open-sourced it and got my first outside contributor, which still feels unreal.
+**[MenSung](https://github.com/Etoile-Bleu/MenSung)**, an offline medication interaction checker in Rust for medical workers in war zones, refugee camps, and rural clinics. Just shipped v1.0.
+
+**[ZamSync](https://github.com/Etoile-Bleu/ZamSync)**, a sync engine written in Rust for district health clinics in Bhutan that run on 2G and lose power mid-transfer, is stable and out in the world with its first outside contributors, which still feels unreal.
 
 ## What I'm studying
 
