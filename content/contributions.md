@@ -4,24 +4,26 @@ showDate: false
 showReadingTime: false
 ---
 
-Everything below actually happened and is on GitHub. Some of it is polished, some of it is a 13 year old's first script, and I'd rather show both than pretend I started at ZamSync.
+Pull requests and issues on other people's projects, not mine. My own stuff is on [Projects](/projects/).
 
 ## 2026
 
-**[MenSung](https://github.com/Etoile-Bleu/MenSung)** and **[ZamSync](https://github.com/Etoile-Bleu/ZamSync)**, my two main projects, offline-first tools for places with no reliable connectivity. Full writeups on the [Projects](/projects/) page.
+**[SasanLabs/VulnerableApp](https://github.com/SasanLabs/VulnerableApp)**, the OWASP VulnerableApp project. Replaced an insecure Base64-encoded session token with a signed, expiring JWT, plus a test proving tampered tokens get rejected. Then a second PR fixing the SAST scanner's ground-truth mappings so its own vulnerability CSV actually pointed at the right lines.
 
-**[generals-forge](https://github.com/Etoile-Bleu/generals-forge)**, a community dedicated server in Rust, hexagonal architecture, for Command & Conquer: Generals Zero Hour. A twenty year old RTS with a fan base that still wants to play it online.
+**[razvandimescu/numa](https://github.com/razvandimescu/numa)**, a Rust DNS resolver. Added CLI toggles for blocking and DNSSEC, with unit tests.
 
-**[erenworld/technobot](https://github.com/erenworld/technobot)**, a robotics tournament management system. I'm a recurring contributor, mostly fixing real bugs (an account-linking flow that broke, an observation panel that stopped showing data, an admin signup path that shouldn't have been open).
+**[mmastrac/linktime](https://github.com/mmastrac/linktime)**, link-time initialization macros for Rust. Implemented symbol rooting using `.ref` assembly directives so it also works on AIX.
 
-**[druk-lang](https://github.com/Etoile-Bleu/druk-lang)**, an LLVM-backed compiled language written in C++, and a private web project for a friend (**Ordalys**), where I contributed on the public-facing site.
+**Getting ZamSync in front of people who'd never see my repo otherwise**: a write-up in [This Week in Rust #656](https://github.com/rust-lang/this-week-in-rust), an entry in [awesome-rust](https://github.com/rust-unofficial/awesome-rust), a listing on [up-for-grabs.net](https://github.com/up-for-grabs/up-for-grabs.net), and entries in five different awesome-lists for local-first, distributed systems, and CRDTs.
+
+**[erenworld/technobot](https://github.com/erenworld/technobot)**, a robotics tournament management system. Recurring contributor: Docker hot reload, a realtime PoC, mandatory API routes, and a handful of real bug fixes (a broken account-linking flow, an observation panel that stopped rendering).
+
+**Tinto57/ordalys_public_website**, a friend's project, private repo. Built out the admin dashboard, client, quote, and invoice management.
+
+**[lingdojo/kana-dojo](https://github.com/lingdojo/kana-dojo)** and **[Hanzllasoomro/interview-prep-notes](https://github.com/Hanzllasoomro/interview-prep-notes)**, small content contributions.
 
 ## 2025
 
-**AT7 Système**, my internship, five months porting a legacy WinDev system to the web. The [full story](/posts/at7-systeme-internship/) is on the blog. Also a private project for a friend that year (**murmuresDAntan**).
+**Tinto57/murmuresDAntan**, a friend's project, private repo. Fixed npm vulnerabilities and updated outdated frontend dependencies.
 
-**[Anomalie-Community/military-gamemode](https://github.com/Anomalie-Community)**, a community Garry's Mod military gamemode. I was one of the more active contributors for a few weeks that spring, the usual mix of features, fixes, and cleaning up after myself.
-
-## 2019
-
-**[GuardMinecraftFR](https://github.com/Etoile-Bleu/GuardMinecraftFR)**, my first project, ever. I was 13. It's a Skript script called "Guard" for a Minecraft server: anti-spam, chat mute and clear, broadcasts, spawn point management. The original README still says, in my own words at the time: *"Je suis un jeune de 13 ans qui ai fait ce script"*, I'm a 13 year old who made this script. I asked people to email me the bugs they found. I still would.
+**[Anomalie-Community](https://github.com/Anomalie-Community)**, a community Garry's Mod military gamemode, private repo. One of the more active contributors for a few weeks that spring.
