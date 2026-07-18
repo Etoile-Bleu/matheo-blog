@@ -81,6 +81,9 @@ fingerprintAlgorithm = "sha256"
 #  site = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 #  region = "eu"  # can be either "eu" or "us"
 
+[goatCounterAnalytics]
+  site = "weier"
+
 [verification]
   # google = ""
   # bing = ""
