@@ -6,7 +6,8 @@ showReadingTime: false
 
 Things I built myself, in the order I built them. Contributions to other people's projects are on their own [page](/contributions/).
 
-## 2026
+<h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">2026</h2>
+<hr class="w-36 border-dotted border-neutral-400" />
 
 Two projects I keep coming back to, both offline-first software for places where the internet, the hardware, or both, cannot be assumed.
 
@@ -48,11 +49,13 @@ An LLVM-backed compiled language written in C++. Custom front-end, parser, stati
 
 - Code: [github.com/Etoile-Bleu/druk-lang](https://github.com/Etoile-Bleu/druk-lang)
 
-## 2025
+<h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">2025</h2>
+<hr class="w-36 border-dotted border-neutral-400" />
 
 **AT7 Système**, my internship, five months porting a legacy WinDev system to the web for technicians on a locked-down industrial site. [Full write-up](/posts/at7-systeme-internship/).
 
-## 2019
+<h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">2019</h2>
+<hr class="w-36 border-dotted border-neutral-400" />
 
 **[GuardMinecraftFR](https://github.com/Etoile-Bleu/GuardMinecraftFR)**, my first project, ever. I was 13. A Skript script called "Guard" for a Minecraft server: anti-spam, chat mute and clear, broadcasts, spawn point management. The original README still says, in my own words at the time: *"Je suis un jeune de 13 ans qui ai fait ce script"*, I'm a 13 year old who made this script. I asked people to email me the bugs they found. I still would.
 

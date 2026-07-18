@@ -39,3 +39,6 @@
   name = "RSS"
   url = "https://etoile-bleu.github.io/matheo-blog/index.xml"
   weight = 60
+  [main.params]
+    icon = "rss"
+    showName = false
