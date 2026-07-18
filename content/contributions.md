@@ -6,7 +6,8 @@ showReadingTime: false
 
 Pull requests and issues on other people's projects, not mine. My own stuff is on [Projects](/projects/).
 
-## 2026
+<h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">2026</h2>
+<hr class="w-36 border-dotted border-neutral-400" />
 
 **[SasanLabs/VulnerableApp](https://github.com/SasanLabs/VulnerableApp)**, the OWASP VulnerableApp project. Replaced an insecure Base64-encoded session token with a signed, expiring JWT, plus a test proving tampered tokens get rejected. Then a second PR fixing the SAST scanner's ground-truth mappings so its own vulnerability CSV actually pointed at the right lines.
 
@@ -22,7 +23,8 @@ Pull requests and issues on other people's projects, not mine. My own stuff is o
 
 **[lingdojo/kana-dojo](https://github.com/lingdojo/kana-dojo)** and **[Hanzllasoomro/interview-prep-notes](https://github.com/Hanzllasoomro/interview-prep-notes)**, small content contributions.
 
-## 2025
+<h2 class="mt-12 text-2xl font-bold text-neutral-700 first:mt-8 dark:text-neutral-300">2025</h2>
+<hr class="w-36 border-dotted border-neutral-400" />
 
 **Tinto57/murmuresDAntan**, a friend's project, private repo. Fixed npm vulnerabilities and updated outdated frontend dependencies.
 
